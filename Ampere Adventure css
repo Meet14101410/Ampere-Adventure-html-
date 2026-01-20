@@ -1,0 +1,26 @@
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#0a0a0a;
+  color:#00ffff;
+  text-align:center;
+}
+
+button{
+  padding:12px 25px;
+  font-size:18px;
+  border:none;
+  border-radius:6px;
+  background:#00ffff;
+  color:#000;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#00cccc;
+}
+
+#status{
+  margin-top:20px;
+  color:#0f0;
+}

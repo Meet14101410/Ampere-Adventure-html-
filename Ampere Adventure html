@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ampere Adventure</title>
+</head>
+<body style="text-align:center;font-family:Arial;background:#111;color:#0ff">
+
+  <h1>⚡ Ampere Adventure ⚡</h1>
+  <p>Click the switch to power the circuit!</p>
+
+  <button onclick="power()">Turn ON</button>
+  <h2 id="status">Circuit OFF</h2>
+
+  <script>
+    function power(){
+      document.getElementById("status").innerHTML="⚡ Circuit ON!";
+    }
+  </script>
+
+</body>
+</html>

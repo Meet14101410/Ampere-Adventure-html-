@@ -1,0 +1,7 @@
+let on = false;
+
+function power(){
+  on = !on;
+  document.getElementById("status").innerHTML =
+    on ? "⚡ Circuit ON!" : "❌ Circuit OFF";
+}
